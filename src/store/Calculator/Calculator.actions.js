@@ -5,9 +5,9 @@ export function sum (a, b){
         payload: [a,b]
     }
 }
-export function subract (a, b){
+export function sub (a, b){
     return {
-        type: 'SUBTACT',
+        type: 'SUB',
         payload: [a,b]
     }
 }

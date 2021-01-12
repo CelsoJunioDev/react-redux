@@ -3,7 +3,7 @@ switch(action.type){
     case 'SUM':
         return action.payload[0] + action.payload[1]
 
-    case 'SUBTACT':
+    case 'SUB':
         return action.payload[0] - action.payload[1]
 
         //caso a action não exista, retorna o state ATUAL (não inicial) como default
